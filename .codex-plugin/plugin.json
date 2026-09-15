@@ -1,0 +1,35 @@
+{
+  "name": "name-conversation",
+  "version": "1.0.0",
+  "description": "Creates short, recognizable conversation titles from the first substantive topic.",
+  "author": {
+    "name": "56henzzz",
+    "url": "https://github.com/56henzzz"
+  },
+  "homepage": "https://github.com/56henzzz/short-chat-titles",
+  "repository": "https://github.com/56henzzz/short-chat-titles",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "chat-title",
+    "conversation",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Name Conversation",
+    "shortDescription": "Short titles from the first chat topic",
+    "longDescription": "Names conversations with 3–5 words based on the first substantive topic, making Recent chats easier to scan.",
+    "developerName": "56henzzz",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/56henzzz/short-chat-titles",
+    "defaultPrompt": [
+      "Create a short title for this conversation.",
+      "Name this chat from its first real topic."
+    ],
+    "brandColor": "#6D5CE7"
+  }
+}
