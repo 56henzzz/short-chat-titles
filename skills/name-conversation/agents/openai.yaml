@@ -1,0 +1,4 @@
+interface:
+  display_name: "Name Conversation"
+  short_description: "Creates short titles from the first chat topic"
+  default_prompt: "Use $name-conversation to create a short title for this chat."
