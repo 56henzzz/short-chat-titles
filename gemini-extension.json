@@ -1,0 +1,6 @@
+{
+  "name": "name-conversation",
+  "version": "1.0.0",
+  "description": "Creates short, recognizable conversation titles from the first substantive topic.",
+  "contextFileName": "AGENTS.md"
+}
