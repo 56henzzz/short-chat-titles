@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "name-conversation",
+  "description": "Short, recognizable titles based on the first real topic of each conversation.",
+  "owner": {
+    "name": "56henzzz",
+    "url": "https://github.com/56henzzz"
+  },
+  "plugins": [
+    {
+      "name": "name-conversation",
+      "description": "Names each conversation after its first substantive topic in 3–5 words.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
