@@ -1,0 +1,12 @@
+{
+  "name": "name-conversation",
+  "version": "1.0.0",
+  "description": "Creates short, recognizable conversation titles from the first substantive topic.",
+  "author": {
+    "name": "56henzzz",
+    "url": "https://github.com/56henzzz"
+  },
+  "homepage": "https://github.com/56henzzz/short-chat-titles",
+  "repository": "https://github.com/56henzzz/short-chat-titles",
+  "license": "MIT"
+}
