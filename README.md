@@ -12,10 +12,10 @@ Name Conversation crea un título breve basado exclusivamente en el primer tema 
 
 | Primer tema del chat | Título generado |
 | --- | --- |
-| “Necesito agregar una agenda para el administrador de REGBUS” | Agenda administrativa de REGBUS |
-| “La Toyota Coaster pierde fuerza cuando sube” | Potencia de Toyota Coaster |
-| “Quiero aprender a crear un autómata para números pares” | Autómata binario par |
-| “Cambiar el comienzo del corrido en Wilcom” | Dirección del bordado Wilcom |
+| “Necesito organizar los gastos de mi cafetería” | Gastos de la cafetería |
+| “¿Cómo configuro copias automáticas en Linux?” | Copias automáticas en Linux |
+| “Quiero planear un viaje corto a Kioto” | Viaje corto a Kioto |
+| “Mi impresora Ender 3 deja capas desalineadas” | Capas desalineadas en Ender 3 |
 
 ## Reglas principales
 
@@ -34,7 +34,7 @@ Name Conversation crea un título breve basado exclusivamente en el primer tema 
 | Claude Desktop | Pestaña Code | Compatible mediante Claude Code |
 | Codex CLI y escritorio | Plugin o skill manual | Compatible |
 | ChatGPT / ChatGPT Work | Carga de la skill | Depende de que la cuenta tenga Skills |
-| Gemini CLI | Extensión o skill manual | Compatible |
+| Gemini CLI | Skill desde GitHub | Compatible |
 | Claude.ai y Gemini web | Sin instalación directa oficial desde GitHub | Puede usarse como instrucción personalizada |
 
 ## Instalación
@@ -65,10 +65,6 @@ La misma instalación cubre Codex CLI y las superficies de Codex que admitan plu
 La disponibilidad de Skills puede depender del plan, la aplicación y la configuración del espacio de trabajo.
 
 ### Gemini CLI
-
-    gemini extensions install https://github.com/56henzzz/short-chat-titles
-
-También puede instalarse únicamente la carpeta de la skill:
 
     gemini skills install https://github.com/56henzzz/short-chat-titles
 
